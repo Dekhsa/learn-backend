@@ -1,0 +1,26 @@
+{
+  "name": "learn-backend",
+  "version": "1.0.0",
+  "description": "tutorial for learning backend",
+  "homepage": "https://github.com/Dekhsa/learn-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Dekhsa/learn-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dekhsa/learn-backend.git"
+  },
+  "license": "ISC",
+  "author": "Dekhsa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
+}
